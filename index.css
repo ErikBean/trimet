@@ -2,11 +2,17 @@
   font: 10px sans-serif;
   background-color: red;
   text-align: right;
-  padding: 1%;
+  padding: 5px;
   margin:1px;
   color: blue;
 
 }
+h1{
+  opacity: .2;
+}
 .chart{
-  border:1px dotted black;
+  padding-right: 2px;
+  border:4px groove black;
+  background-color: grey;
+  display: inline-block;
 }
