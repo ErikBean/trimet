@@ -19,5 +19,9 @@
   "homepage": "https://github.com/ErikBean/trimet#readme",
   "devDependencies": {
     "serve": "^6.0.1"
+  },
+  "dependencies": {
+    "d3": "^4.10.0",
+    "jquery": "^3.2.1"
   }
 }
