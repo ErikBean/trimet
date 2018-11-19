@@ -6,15 +6,34 @@ body{
   background-color:lightblue;
   width:500px;
   height:500px;
-  border-radius:10px;
+  border-radius:8%;
   border:2px solid black;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top:5%;
+}
+
+.dropDown{
+  float:right;
+  margin-right:30%;
+  position:relative;
+  margin-top:-10%;
+}
+
+.results{
+  text-align: center;
+  margin-top: 15%;
 }
 
 .title{
   text-align: center;
   color:black;
+}
+
+.option{
+  margin-left:20%;
+  margin-top:10%;
+  font-size:18px;
+
 }
 
 .chart div{
