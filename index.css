@@ -1,3 +1,22 @@
+body{
+  background-color:grey;
+}
+
+.container{
+  background-color:lightblue;
+  width:500px;
+  height:500px;
+  border-radius:10px;
+  border:2px solid black;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.title{
+  text-align: center;
+  color:black;
+}
+
 .chart div{
   font: 10px sans-serif;
   background-color: red;
@@ -25,7 +44,7 @@
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 0 auto 0; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: 
+  animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
