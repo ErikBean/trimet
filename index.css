@@ -12,6 +12,10 @@ body{
   margin-top:5%;
 }
 
+.opt2{
+  display:none;
+}
+
 .dropDown{
   float:right;
   margin-right:30%;
@@ -22,6 +26,7 @@ body{
 .results{
   text-align: center;
   margin-top: 15%;
+  display: none;
 }
 
 .title{
