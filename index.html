@@ -19,9 +19,13 @@
       <div class="opt1 option">
         <p>First:</p>
         <form id="lineDropDown" class="dropDown">
-          <select id="lines" onchange="getStopNames(this.value)">
-            <option>Choose a line</option>
-        </select>
+          <select id="lines" onchange="getDirections(this.value)" placeholder="Choose a line">
+            <option disabled selected hidden>Choose a line</option>
+          </select>
+          <br />
+          <select id="direction" onchange="getStopNames(this.data-index)">
+            <option disabled selected hidden>And a direction</option>
+          </select>
         </form>
       </div>
       <div class="opt2 option">

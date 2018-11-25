@@ -13,7 +13,7 @@ body{
 }
 
 .opt2{
-  display:none;
+  /* visibility: hidden; */
 }
 
 .dropDown{
@@ -26,7 +26,11 @@ body{
 .results{
   text-align: center;
   margin-top: 15%;
-  display: none;
+  visibility: hidden;
+}
+
+#direction{
+  visibility: hidden;
 }
 
 .title{
