@@ -19,35 +19,28 @@
       <div class="opt1 option">
         <p>First:</p>
         <form id="lineDropDown" class="dropDown">
-          <select id="lines" onchange="getDirections(this.value)" placeholder="Choose a line">
+          <select id="lines" onchange="getDirections(this.value)">
             <option disabled selected hidden>Choose a line</option>
           </select>
           <br />
-          <select id="direction" onchange="getStopNames(this.data-index)">
-            <option disabled selected hidden>And a direction</option>
+          <select id="direction" onchange="getStopNames()">
+            <option disabled selected hidden data-index="99">And a direction</option>
           </select>
         </form>
       </div>
       <div class="opt2 option">
         <p>Then:</p>
         <form id="StopIdDropDown" class="dropDown">
-          <select id="stops">
+          <select id="stops" onchange="getResults(this.value)">
             <option>Choose a Stop</option>
           </select>
         </form>
       </div>
-      <div class="results">
-        <h2>Your bus will arrive at ____PM/AM<br />
-          Your bus is running __ minutes late</h2>
+      <div id="results">
       </div>
     </div>
     <br />
 
   </body>
 </html>
-
-
-
 <!--<h1 class="typewriter">Number of minutes until a bus arrives at stopId 6849:</h1>-->
-<!-- <div class="chart" ></div> -->
-<!--<div class="scatterplot" style="position: absolute; margin: 50% auto;" ></div>-->
