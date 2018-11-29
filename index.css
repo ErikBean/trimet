@@ -21,6 +21,7 @@ body{
   margin-right:30%;
   position:relative;
   margin-top:-10%;
+  max-width:175px;
 }
 
 #results{
@@ -39,7 +40,7 @@ body{
 }
 
 .option{
-  margin-left:20%;
+  margin-left:5%;
   margin-top:10%;
   font-size:18px;
 
